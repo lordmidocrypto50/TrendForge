@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+feedparser
+transformers
+prophet
+torch
+matplotlib
+yfinance
+streamlit
+pandas
