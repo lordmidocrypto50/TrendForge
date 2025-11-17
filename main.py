@@ -4,7 +4,11 @@ import feedparser
 from transformers import pipeline
 
 app = FastAPI()
-sentiment_model = pipeline("sentiment-analysis")
+sentiment_model = pipeline(
+    "sentiment-analysis",
+    model="distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+    revision="714eb0f"   # optional, pins exact version
+)
 
 @app.get("/price/{symbol_id}")
 def get_price(symbol_id: str):
