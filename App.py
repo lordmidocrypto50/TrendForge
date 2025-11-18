@@ -16,7 +16,7 @@ sentiment_model = load_sentiment_model()
 PRIORITY_IDS = {
     "btc": "bitcoin", "eth": "ethereum", "xrp": "ripple", "ada": "cardano",
     "sol": "solana", "bnb": "binancecoin", "doge": "dogecoin", "ltc": "litecoin",
-    "dot": "polkadot", "pol": "polygon", "dash": "dash", "etc": "ethereum classic"
+    "dot": "polkadot", "pol": "polygon", "dash": "dash", "etc": "ethereum_classic"
 }
 
 # --- Resolve CoinGecko ID ---
